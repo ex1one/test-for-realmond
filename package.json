@@ -1,0 +1,36 @@
+{
+	"name": "test-for-toolkit",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@mantine/core": "^7.6.2",
+		"@octokit/graphql": "^8.1.1",
+		"@phosphor-icons/react": "^2.1.7",
+		"atomic-router": "^0.10.1",
+		"atomic-router-react": "^0.10.0",
+		"axios": "^1.7.2",
+		"effector": "^23.2.1",
+		"effector-react": "^23.2.0",
+		"effector-storage": "^7.1.0",
+		"history": "^5.3.0",
+		"path": "^0.12.7",
+		"patronum": "^2.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.9",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"typescript": "^5.2.2",
+		"vite": "^5.2.0",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
