@@ -1,15 +1,5 @@
-import {
-	Box,
-	Button,
-	Center,
-	Input,
-	InputBase,
-	Stack,
-	Table,
-	Title,
-} from '@mantine/core'
+import { Button, Center, Stack, Table, Title } from '@mantine/core'
 import { useUnit } from 'effector-react'
-import { useState } from 'react'
 import {
 	$fetchingUsers,
 	$pagination,
