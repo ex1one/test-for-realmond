@@ -6,6 +6,7 @@
 `npm run dev`
 
 Приложение будет доступно по адресу http://localhost:3000
+Ссылка на сайт - https://lustrous-lokum-67d766.netlify.app/
 
 ### Сборка приложения
 

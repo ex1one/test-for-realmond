@@ -22,7 +22,7 @@ export const showMoreClicked = createEvent()
 
 export const $users = createStore<User[]>([])
 export const $pagination = createStore<GetUsersParams>({
-	limit: 20,
+	limit: 9,
 	sort: 'asc',
 })
 
